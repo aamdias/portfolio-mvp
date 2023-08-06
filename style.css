@@ -73,19 +73,23 @@ p {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.area-expertise-item:hover {
+.area-expertise-item:hover, .area-expertise-item:active {
     transform: scale(1.05); /* Slight enlargement on hover */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
     border-color: #58674d; /* Darkened border on hover */
 }
 
 .medium-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-decoration: none; /* Removes underline */
     color: inherit; /* Inherit text color from parent */
     width: 150px;
 }
 
-.medium-link .area-expertise-item:hover {
+.medium-link .area-expertise-item:hover, .medium-link .area-expertise-item:active  {
     transform: scale(1.05);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     background-color:darkcyan;
