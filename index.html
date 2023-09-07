@@ -1,42 +1,113 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Alan Dias</title>
-        <meta name="Portfólio pessoal de Alan Dias" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <img src="alan-dias-jul-23.png" width="300 px">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alan Dias</title>
+    <meta name="Portfólio pessoal de Alan Dias" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <div class="container text-center">
+        <div class="mode-toggle-container">
+            <button id="modeToggle" class="btn btn-sm btn-secondary">
+                <i id="modeIcon" class="fas fa-sun"></i>
+            </button>
+        </div>
+        <img src="alan-dias-jul-23.png" class="rounded-circle" width="300">
         <h1>Alan Dias</h1>
-        <h2>I love building digital products that solves real problems</h2>
-        <div>
-            <h3>Areas of Expertise </h3>
-            <div class="area-expertise-container">
-                <div class = "area-expertise-item">Product Management</div>
-                <div class = "area-expertise-item">UX</div>
-                <div class = "area-expertise-item">Data Analytics</div>
-                <div class = "area-expertise-item">Business</div>
-                <div class = "area-expertise-item">Web Dev</div>
+        <h2>I love building digital products that solve real problems</h2>
+        <div class="card-deck">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Management</h5>
+                            <p class="card-text">Experience with PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">UX</h5>
+                            <p class="card-text">Experience with UX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Analytics</h5>
+                            <p class="card-text">Experience with DA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Business</h5>
+                            <p class="card-text">Experience with Business</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Dev</h5>
+                            <p class="card-text">Experience with Web Dev</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
-        <div>
-            <h3>Previous experience </h3>
-            <div class="area-expertise-container">
-                <div class = "area-expertise-item">Product Manager @Trybe</div>
-                <div class = "area-expertise-item">Mechanical Engineer @ITA</div>
+        <h2>Previous Experience</h2>
+            <div class = "card-deck">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- First Card -->
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Manager @Trybe</h5>
+                                <p class="card-text">From 2020 to present</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second Card -->
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Mechanical Engineer @ITA</h5>
+                                <p class="card-text">From 2016 to 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-        <div>
-            <h3>Public projects </h3>
-            <div class="area-expertise-container">
-                <a href="https://medium.com/@aamdias" class="medium-link">
-                    <div class="area-expertise-item">Medium</div>
-                </a>
-            </div>
-        </div>
-        <p>Born in Fortaleza, Ceará, Brazil</p>
-    </body>
+        <h2>Public Projects</h2>
+            <div class="card-deck">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- First Card -->
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Medium</h5>
+                                <p class="card-text"><a href="https://medium.com/@aamdias" target="_blank">Check here</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        <footer>
+            <p>Coded from scratch by Alan Dias. Born in Fortaleza, Ceará, Brazil</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
